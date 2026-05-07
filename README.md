@@ -15,13 +15,21 @@ This project crawls Google Places data for chicken restaurants, filters English-
 ## Project Structure
 
 ```
-restaurant_hygiene_analysis.ipynb   # Main analysis notebook (NLP + fuzzy logic)
-google_places_reviews.csv           # Raw Google Places review data
-google_places_stars.csv             # Restaurant star rating data
-powerbi_dashboard.pbix.zip          # Power BI dashboard file
-report.pdf                          # Full project report
-project_poster.pdf                  # Project poster
-code_reference_sheet.pdf            # Code reference sheet
+├── notebooks/
+│   └── restaurant_hygiene_analysis.ipynb   # Main analysis (NLP + fuzzy logic)
+├── data/
+│   ├── google_places_reviews.csv           # Raw Google Places review data
+│   └── google_places_stars.csv             # Restaurant star rating data
+├── results/
+│   └── powerbi_dashboard.pbix.zip          # Power BI dashboard file
+├── report/
+│   └── report.pdf                          # Full project report
+├── slides/
+│   └── project_poster.pdf                  # Project poster
+├── docs/
+│   └── code_reference_sheet.pdf            # Code reference sheet
+├── README.md
+└── .gitignore
 ```
 
 ## Methodology
