@@ -13,6 +13,8 @@ This project scrapes Google Places data from chicken restaurants, isolates Engli
 - Hygiene sentiment and overall star ratings don't always agree
 
 ## Project Structure
+
+```
 ├── notebooks/
 │   └── restaurant_hygiene_analysis.ipynb   # Core analysis (NLP + fuzzy logic)
 ├── data/
@@ -28,6 +30,7 @@ This project scrapes Google Places data from chicken restaurants, isolates Engli
 │   └── code_reference_sheet.pdf            # Code reference documentation
 ├── README.md
 └── .gitignore
+```
 
 ## Methodology
 
