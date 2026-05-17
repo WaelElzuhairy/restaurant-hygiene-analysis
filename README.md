@@ -7,7 +7,7 @@ A data mining project that uses NLP and fuzzy logic to evaluate and categorize h
 This project scrapes Google Places data from chicken restaurants, isolates English-language reviews mentioning hygiene-related terms (such as clean, dirty, fresh, and bacteria), then applies fuzzy logic to generate a cleanliness score (0–1) for each restaurant. The results are presented through a Power BI dashboard.
 
 ## Key Findings
-
+  
 - A moderate **0.36 correlation** was found between hygiene sentiment and Google star ratings
 - The analysis flagged **7 poorly-rated** and **6 well-rated** restaurants based on hygiene scores
 - Hygiene sentiment and overall star ratings don't always agree
